@@ -4,6 +4,8 @@ echo "Installing Cyber75 Prompt..."
 
 cp ~/.bashrc ~/.bashrc.backup 2>/dev/null
 
+sed -i '/# >>> CYBER75 PROMPT START >>>/,/# <<< CYBER75 PROMPT END <<</d' ~/.bashrc
+
 cat >> ~/.bashrc <<'EOF'
 
 # >>> CYBER75 PROMPT START >>>
