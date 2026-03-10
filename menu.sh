@@ -25,11 +25,11 @@ read -p "Select option: " choice
 
 case $choice in
 
-1) bash "$DIR/Arch linux.sh" ;;
-2) bash "$DIR/Cyber75.sh" ;;
-3) bash "$DIR/Kali.sh" ;;
-4) bash "$DIR/Parrot.sh" ;;
-5) bash "$DIR/uninstall.sh" ;;
+1) bash "$DIR/.Arch linux.sh" ;;
+2) bash "$DIR/.Cyber75.sh" ;;
+3) bash "$DIR/.Kali.sh" ;;
+4) bash "$DIR/.Parrot.sh" ;;
+5) bash "$DIR/.uninstall.sh" ;;
 0) exit ;;
 
 *) echo "Invalid option" ;;
