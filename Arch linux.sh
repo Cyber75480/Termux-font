@@ -4,6 +4,8 @@ echo "Installing Arch Style..."
 
 cp ~/.bashrc ~/.bashrc.backup 2>/dev/null
 
+sed -i '/# >>> CYBER75/,/# <<< CYBER75/d' ~/.bashrc
+
 cat >> ~/.bashrc <<'EOF'
 
 # >>> CYBER75 ARCH PROMPT START >>>
